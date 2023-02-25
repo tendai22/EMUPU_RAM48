@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MCU_Microchip_PIC182")(type "KiCad")(uri "${KIPRJMOD}/MCU_Microchip_PIC18.kicad_sym")(options "")(descr ""))
+  (lib (name "MCU_Microchip_PIC183")(type "KiCad")(uri "${KIPRJMOD}/MCU_Microchip_PIC18.kicad_sym")(options "")(descr ""))
+  (lib (name "xxx")(type "KiCad")(uri "${KIPRJMOD}/xxx.kicad_sym")(options "")(descr ""))
+  (lib (name "hm678127_soj32_aa")(type "KiCad")(uri "${KIPRJMOD}/hm678127_soj32_aa.kicad_sym")(options "")(descr ""))
+)
