@@ -1,0 +1,26 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(7.0.0)*
+G04 #@! TF.CreationDate,2023-02-26T03:03:27+09:00*
+G04 #@! TF.ProjectId,EMUPU_RAM,454d5550-555f-4524-914d-2e6b69636164,rev?*
+G04 #@! TF.SameCoordinates,PX4fefde0PY8670810*
+G04 #@! TF.FileFunction,Profile,NP*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (7.0.0)) date 2023-02-26 03:03:27*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 #@! TA.AperFunction,Profile*
+%ADD10C,0.100000*%
+G04 #@! TD*
+G04 APERTURE END LIST*
+D10*
+X99060000Y82550000D02*
+X99060000Y0D01*
+X0Y0D02*
+X0Y82550000D01*
+X99060000Y0D02*
+X0Y0D01*
+X99060000Y82550000D02*
+X0Y82550000D01*
+M02*
