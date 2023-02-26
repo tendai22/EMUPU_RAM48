@@ -110,4 +110,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
+  (model "${KISYS3DMOD}/Package_DIP.3dshapes/DIP-48_W15.24mm_Socket.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

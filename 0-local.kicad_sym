@@ -578,7 +578,7 @@
         (number "17" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at 17.78 -45.72 180) (length 3.81)
-        (name "RB6/ISCPCLK" (effects (font (size 1.27 1.27))))
+        (name "RB6/ICSPCLK" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at 17.78 -43.18 180) (length 3.81)
