@@ -1,4 +1,4 @@
-21488415945721036
+21463256791116612
 0-local
 BARREL_JACK
 MJ179PH - Akizuki's DC Jack
@@ -21,61 +21,12 @@ THT DIP DIL PDIP 2.54mm 15.24mm 600mil Socket LongPads
 40
 40
 0-local
-DIP-48_W15.24mm_Socket_OvalPad_splitcouryard
-40-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils), Socket, LongPads
-THT DIP DIL PDIP 2.54mm 15.24mm 600mil Socket LongPads
-0
-48
-48
-0-local
 Janome_36x27
 
 
 0
 964
 2
-0-local
-PinHeader_1x06_P2.54mm_Horizontal
-Through hole angled pin header, 1x06, 2.54mm pitch, 6mm pin length, single row
-Through hole angled pin header THT 1x06 2.54mm single row
-0
-6
-6
-0-local
-PinHeader_1x06_P2.54mm_Horizontal_NoFeet
-Through hole angled pin header, 1x06, 2.54mm pitch, 6mm pin length, single row
-Through hole angled pin header THT 1x06 2.54mm single row
-0
-6
-6
-0-local
-PinHeader_1x06_P2.54mm_Rev_Horizontal
-Through hole angled pin header, 1x06, 2.54mm pitch, 6mm pin length, single row
-Through hole angled pin header THT 1x06 2.54mm single row
-0
-6
-6
-0-local
-PinHeader_1x06_P2.54mm_Rev_Horizontal_Nofoot
-Through hole angled pin header, 1x06, 2.54mm pitch, 6mm pin length, single row
-Through hole angled pin header THT 1x06 2.54mm single row
-0
-6
-6
-0-local
-PinHeader_1x08_P2.54mm_Rev_Horizontal
-Through hole angled pin header, 1x08, 2.54mm pitch, 6mm pin length, single row
-Through hole angled pin header THT 1x08 2.54mm single row
-0
-8
-8
-0-local
-PinHeader_1x08_P2.54mm_Rev_Horizontal_Nofoot
-Through hole angled pin header, 1x08, 2.54mm pitch, 6mm pin length, single row
-Through hole angled pin header THT 1x08 2.54mm single row
-0
-8
-8
 0-local
 PowerSW_for_SBC_series
 
@@ -60486,62 +60437,6 @@ Yellow 5381 Series LED
 0
 2
 2
-Library
-BARREL_JACK
-MJ179PH - Akizuki's DC Jack
-DC Jack Barrel_Jack
-0
-3
-3
-Library
-DIP-40_W15.24mm_Socket_OvalPad
-40-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils), Socket, LongPads
-THT DIP DIL PDIP 2.54mm 15.24mm 600mil Socket LongPads
-0
-40
-40
-Library
-DIP-40_W15.24mm_Socket_OvalPad_splitcouryard
-40-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils), Socket, LongPads
-THT DIP DIL PDIP 2.54mm 15.24mm 600mil Socket LongPads
-0
-40
-40
-Library
-Janome_36x27
-
-
-0
-964
-2
-Library
-PowerSW_for_SBC_series
-
-
-0
-3
-3
-Library
-Quad-2x6
-Akizuki TQFP48 chip mount plate
-
-0
-48
-48
-Library
-SW_PUSH_6mm_H4.3mm
-tactile push button, 6x6mm e.g. PHAP33xx series, height=4.3mm
-tact sw push 6mm
-0
-4
-2
-Library
-ThruHole_1x1
-Through hole straight pin header, 1x02, 2.54mm pitch, single row
-Through hole pin header THT 1x02 2.54mm single row
-0
-1
-1
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
