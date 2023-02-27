@@ -1,4 +1,4 @@
-21463256791116612
+21471644059665700
 0-local
 BARREL_JACK
 MJ179PH - Akizuki's DC Jack
@@ -6,6 +6,13 @@ DC Jack Barrel_Jack
 0
 3
 3
+0-local
+DIP-32_W15.24mm_Socket_OvalPad_splitcouryard
+40-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils), Socket, LongPads
+THT DIP DIL PDIP 2.54mm 15.24mm 600mil Socket LongPads
+0
+32
+32
 0-local
 DIP-40_W15.24mm_Socket_OvalPad
 40-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils), Socket, LongPads
@@ -21,12 +28,40 @@ THT DIP DIL PDIP 2.54mm 15.24mm 600mil Socket LongPads
 40
 40
 0-local
+DIP-48_W15.24mm_Socket_OvalPad_splitcouryard
+40-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils), Socket, LongPads
+THT DIP DIL PDIP 2.54mm 15.24mm 600mil Socket LongPads
+0
+48
+48
+0-local
 Janome_36x27
 
 
 0
 964
 2
+0-local
+PinHeader_1x06_P2.54mm_Horizontal_NoFeet
+Through hole angled pin header, 1x06, 2.54mm pitch, 6mm pin length, single row
+Through hole angled pin header THT 1x06 2.54mm single row
+0
+6
+6
+0-local
+PinHeader_1x06_P2.54mm_Rev_Horizontal_Nofoot
+Through hole angled pin header, 1x06, 2.54mm pitch, 6mm pin length, single row
+Through hole angled pin header THT 1x06 2.54mm single row
+0
+6
+6
+0-local
+PinHeader_1x08_P2.54mm_Rev_Horizontal_Nofoot
+Through hole angled pin header, 1x08, 2.54mm pitch, 6mm pin length, single row
+Through hole angled pin header THT 1x08 2.54mm single row
+0
+8
+8
 0-local
 PowerSW_for_SBC_series
 
