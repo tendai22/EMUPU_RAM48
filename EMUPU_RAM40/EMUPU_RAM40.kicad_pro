@@ -476,7 +476,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "EMUPU_RAM40.net",
-      "specctra_dsn": "",
+      "specctra_dsn": "EMUPU_RAM40.dsn",
       "step": "",
       "vrml": ""
     },
