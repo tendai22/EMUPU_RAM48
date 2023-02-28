@@ -38,7 +38,7 @@
       )
     )
     (symbol "628128_DIP32_1_1"
-      (pin input line (at 10.16 -20.32 180) (length 2.54) hide
+      (pin no_connect line (at 10.16 -20.32 180) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
