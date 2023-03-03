@@ -1,0 +1,4 @@
+*-backups/
+*.ses
+*.dsn
+*.net
