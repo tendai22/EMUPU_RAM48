@@ -82,6 +82,6 @@
   (fp_line (start 7.685 1.699) (end 7.485 1.899)
     (stroke (width 0.12) (type solid)) (layer "F.CrtYd") (tstamp c2debd32-4260-4722-812d-6bfa7043d025))
   (pad "1" thru_hole roundrect (at 5.985 -0.001) (size 3 4) (drill oval 1 3.5) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp 1f578317-c394-468c-a068-fffb806f54d1))
-  (pad "2" thru_hole roundrect (at 2.985 4.899) (size 4 3) (drill oval 3 1) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp 43c59302-80bc-4c6a-9459-9ae8ca03c655))
-  (pad "3" thru_hole roundrect (at -0.015 -0.001) (size 3 4) (drill oval 1 3) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp c09139ce-5d00-4f5d-9c1e-daa8c908443f))
+  (pad "2" thru_hole roundrect (at -0.015 -0.001) (size 3 4) (drill oval 1 3) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp c09139ce-5d00-4f5d-9c1e-daa8c908443f))
+  (pad "3" thru_hole roundrect (at 2.985 4.899) (size 4 3) (drill oval 3 1) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp 43c59302-80bc-4c6a-9459-9ae8ca03c655))
 )
