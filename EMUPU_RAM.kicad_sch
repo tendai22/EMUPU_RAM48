@@ -6,7 +6,7 @@
 
   (title_block
     (title "EMUPU_RAM48 board")
-    (rev "002")
+    (rev "002.1")
   )
 
   (lib_symbols
