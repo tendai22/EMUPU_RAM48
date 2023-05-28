@@ -1990,7 +1990,6 @@
     )
   )
 
-
   (junction (at 83.82 152.4) (diameter 0) (color 0 0 0 0)
     (uuid 185a4bcb-6f61-4de3-a84a-8385e42ff215)
   )
@@ -2071,6 +2070,9 @@
   )
   (junction (at 240.03 25.4) (diameter 0) (color 0 0 0 0)
     (uuid e2f36cfc-a2a0-4a50-913b-eaba256999ec)
+  )
+  (junction (at 68.58 149.86) (diameter 0) (color 0 0 0 0)
+    (uuid e5444d08-85a2-484e-8929-c872e6aeb11a)
   )
   (junction (at 102.87 60.96) (diameter 0) (color 0 0 0 0)
     (uuid ece48d27-ad15-45ba-829d-84fa31952b3e)
@@ -2327,6 +2329,10 @@
   (wire (pts (xy 158.75 182.88) (xy 161.29 182.88))
     (stroke (width 0) (type default))
     (uuid 4252a676-9041-42ce-8c41-c01b47cb5498)
+  )
+  (wire (pts (xy 68.58 149.86) (xy 180.34 149.86))
+    (stroke (width 0) (type default))
+    (uuid 43ee8fa4-4d87-41da-b865-f1730afbd66a)
   )
   (wire (pts (xy 27.94 22.86) (xy 58.42 22.86))
     (stroke (width 0) (type default))
@@ -2912,6 +2918,10 @@
     (stroke (width 0) (type default))
     (uuid d206853a-caa6-48f6-89f8-5bb85346c667)
   )
+  (wire (pts (xy 57.15 157.48) (xy 60.96 157.48))
+    (stroke (width 0) (type default))
+    (uuid d23adde9-ae68-4468-a4bb-7c4fdd73ec7e)
+  )
   (wire (pts (xy 130.81 76.2) (xy 180.34 76.2))
     (stroke (width 0) (type default))
     (uuid d3489836-976f-4bdb-bd15-a13602f6e78b)
@@ -3020,7 +3030,7 @@
     (stroke (width 0) (type default))
     (uuid e907c0fa-abf9-45eb-a38d-2bb745f9b7f1)
   )
-  (wire (pts (xy 31.75 149.86) (xy 180.34 149.86))
+  (wire (pts (xy 31.75 149.86) (xy 68.58 149.86))
     (stroke (width 0) (type default))
     (uuid e9748178-8378-40c5-a704-a87e3082e8e6)
   )
@@ -3103,6 +3113,10 @@
   (wire (pts (xy 58.42 119.38) (xy 58.42 120.65))
     (stroke (width 0) (type default))
     (uuid fe82cd40-3910-41ac-9a6c-13696cf2a577)
+  )
+  (wire (pts (xy 68.58 149.86) (xy 68.58 157.48))
+    (stroke (width 0) (type default))
+    (uuid fed720e6-4d0f-4a95-a108-a923ad1aa429)
   )
 
   (text "MISO" (at 200.66 31.75 0)
@@ -3793,6 +3807,37 @@
       (project "EMUPU_RAM40"
         (path "/e6d6b00c-3eac-46b2-864a-d30920c7bbcf"
           (reference "U2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 64.77 157.48 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 19227208-0f13-4cbc-b190-b59970146d1d)
+    (property "Reference" "R1" (at 64.1263 155.702 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10k" (at 67.31 157.48 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" (at 64.77 159.258 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 64.77 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7ad0a48c-2272-46f6-a284-669911ff3444))
+    (pin "2" (uuid 30640eb4-014b-47af-8a7d-3475e85d37d7))
+    (instances
+      (project "EMUPU_RAM"
+        (path "/6d2188b2-a6ec-4341-9e2f-19ddbe5554d2"
+          (reference "R1") (unit 1)
+        )
+      )
+      (project "EMUPU_RAM40"
+        (path "/e6d6b00c-3eac-46b2-864a-d30920c7bbcf"
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -5659,6 +5704,36 @@
       (project "EMUPU_RAM40"
         (path "/e6d6b00c-3eac-46b2-864a-d30920c7bbcf"
           (reference "#PWR021") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:VCC") (at 57.15 157.48 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f6bba225-20f5-449e-9acc-8b9f9ee6e499)
+    (property "Reference" "#PWR024" (at 57.15 161.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VCC" (at 57.15 153.9781 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 57.15 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 57.15 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7117cd03-0ced-47f9-a79f-966e47cca834))
+    (instances
+      (project "EMUPU_RAM"
+        (path "/6d2188b2-a6ec-4341-9e2f-19ddbe5554d2"
+          (reference "#PWR024") (unit 1)
+        )
+      )
+      (project "EMUPU_RAM40"
+        (path "/e6d6b00c-3eac-46b2-864a-d30920c7bbcf"
+          (reference "#PWR033") (unit 1)
         )
       )
     )
