@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty")(options "")(descr ""))
   (lib (name "0-local")(type "KiCad")(uri "${KIPRJMOD}/0-local.pretty")(options "")(descr ""))
+  (lib (name "0-global")(type "KiCad")(uri "${KIPRJMOD}/0-global.pretty")(options "")(descr ""))
+  (lib (name "0-Project")(type "KiCad")(uri "${KIPRJMOD}/0-Project.pretty")(options "")(descr ""))
 )
